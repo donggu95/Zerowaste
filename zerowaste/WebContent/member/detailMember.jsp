@@ -31,36 +31,11 @@
 					<%=member.getSname() %>
 				</div>
 			</div>
-			<div class="form-group  row">
-				<label class="col-sm-2">성별</label>
-				<div class="col-sm-10">
-					<%=member.getSgender() %>
-				</div>
-			</div>
-			<div class="form-group row">
-				<label class="col-sm-2">생일</label>
-				<div class="col-sm-4  ">
-					<%=member.getSbirth() %>
-				</div>
-			</div>
 			<div class="form-group  row ">
 				<label class="col-sm-2">이메일</label>
 				<div class="col-sm-10">
 					<%=member.getSemail() %>
 				</div>				
-			</div>
-			<div class="form-group  row">
-				<label class="col-sm-2">전화번호</label>
-				<div class="col-sm-3">
-					<%=member.getSphone() %>
-				</div>
-			</div>
-			<div class="form-group  row">
-				<label class="col-sm-2 ">주소</label>
-				<div class="col-sm-5">
-					<%=member.getSaddress() %>
-
-				</div>
 			</div>
 			</div>
 			<div class="form-group  row">

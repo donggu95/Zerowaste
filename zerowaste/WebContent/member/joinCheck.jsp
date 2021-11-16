@@ -9,19 +9,10 @@
 	String sid = request.getParameter("id");
 	String spassword = request.getParameter("password");
 	String sname = request.getParameter("name");
-	String sgender = request.getParameter("gender");
-
-	String year = request.getParameter("birthyy");
-	String month = request.getParameter("birthmm");
-	String day = request.getParameter("birthdd");	
-	String sbirth = year + "/" + month + "/" + day;
-	
 	String semail = request.getParameter("email");
-	String sphone = request.getParameter("phone");
-	String saddress = request.getParameter("address");	
 
 	UserDAO dao = new UserDAO();
-	int code = dao.join(sid, spassword, sname, sgender, sbirth, semail, sphone, saddress);
+	int code = dao.join(sid, spassword, sname, semail);
 	
 	if (code == 1) {
 		response.sendRedirect("/product/products.jsp");

@@ -33,9 +33,9 @@
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
            회원관리</a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><a class="dropdown-item" href="/member/loginMember.jsp">로그인</a></li>
-            <li><a class="dropdown-item" href="#">로그아웃</a></li>
-            <li><a class="dropdown-item" href="/member/joinMember.jsp">회원가입</a></li>
+            <li><a class="dropdown-item" href="./member/loginMember.jsp">로그인</a></li>
+            <li><a class="dropdown-item" href="./logout.jsp">로그아웃</a></li>
+            <li><a class="dropdown-item" href="./member/joinMember.jsp">회원가입</a></li>
             <li><a class="dropdown-item" href="#">회원탈퇴</a></li>
           </ul>
         </li>
@@ -43,5 +43,4 @@
     </div>
   </div>
 </nav>
-
 
